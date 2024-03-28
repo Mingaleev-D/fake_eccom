@@ -1,4 +1,4 @@
-import 'package:fake_eccom/ui/pages/cart_page.dart';
+import 'package:fake_eccom/ui/pages/cart/cart_page.dart';
 import 'package:fake_eccom/ui/pages/home_page.dart';
 import 'package:fake_eccom/ui/pages/profile_page.dart';
 import 'package:fake_eccom/ui/pages/search_page.dart';
