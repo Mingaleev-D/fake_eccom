@@ -1,6 +1,7 @@
 import 'package:fake_eccom/core/theme_data.dart';
 import 'package:fake_eccom/ui/manager/theme/theme_provider.dart';
 import 'package:fake_eccom/ui/pages/home_page.dart';
+import 'package:fake_eccom/ui/widgets/root_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             theme: Styles.themeData(
                 isDarkTheme: themeProvider.getIsDarkTheme, context: context),
-            home: const HomePage(),
+            home: const RootNav(),
           );
         },
       ),

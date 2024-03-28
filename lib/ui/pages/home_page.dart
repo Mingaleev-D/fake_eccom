@@ -1,4 +1,5 @@
 import 'package:fake_eccom/ui/manager/theme/theme_provider.dart';
+import 'package:fake_eccom/ui/widgets/subtitle_text.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,6 +18,10 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          const SubtitleText(
+            label: 'Hell',
+            fontSize: 20,
+          ),
           SwitchListTile(
             title: Text(
               themeProvider.getIsDarkTheme ? 'Темный режим' : 'Светлый режим',
